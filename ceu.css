@@ -1,0 +1,481 @@
+.stars {
+    position: absolute;
+    content: "";
+    left: calc(100%/6 - (600px));
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    box-shadow: 50px 30px white,
+    250px 80px white,
+    80px 120px white,
+    600px 20px white,
+    700px 130px white,
+    450px 50px white,
+    350px 100px white,
+    900px 100px white,
+
+    100px 150px white,
+    50px 280px white,
+    300px 40px white,
+    550px 390px white,
+    320px 100px white,
+    230px 300px white,
+    820px 350px white,
+
+    180px 250px white,
+    150px 420px white,
+    660px 80px white,
+    790px 540px white,
+    450px 320px white,
+    430px 400px white,
+    850px 480px white,
+
+    
+    170px 350px white,
+    50px 480px white,
+    10px 300px white,
+    70px 540px white,
+    450px 600px white,
+    610px 720px white,
+    534px 880px white,
+
+    80px 350px white,
+    50px 480px white,
+    10px 570px white,
+    70px 540px white,
+    45px 600px white,
+    512px 720px white,
+    24px 990px white,
+
+    649px 1100px white,
+    40px 600px white,
+    10px 800px white,
+    23px 950px white,
+    45px 430px white,
+    18px 920px white,
+    65px 1000px white;
+
+    animation: anim-stars 20s linear infinite;
+}
+
+.stars::after {
+    content: "";
+    position: absolute;
+    top: 1024px;
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    box-shadow: 50px 30px white,
+    250px 80px white,
+    80px 120px white,
+    600px 20px white,
+    700px 130px white,
+    450px 50px white,
+    350px 100px white,
+    900px 100px white,
+
+    100px 150px white,
+    50px 280px white,
+    300px 40px white,
+    550px 390px white,
+    320px 100px white,
+    230px 300px white,
+    820px 350px white,
+
+    180px 250px white,
+    150px 420px white,
+    660px 80px white,
+    790px 540px white,
+    450px 320px white,
+    430px 400px white,
+    850px 480px white,
+
+    
+    170px 350px white,
+    50px 480px white,
+    10px 300px white,
+    70px 540px white,
+    450px 600px white,
+    610px 720px white,
+    534px 880px white,
+
+    80px 350px white,
+    50px 480px white,
+    10px 570px white,
+    70px 540px white,
+    45px 600px white,
+    512px 720px white,
+    24px 990px white,
+
+    649px 1100px white,
+    40px 600px white,
+    10px 800px white,
+    23px 950px white,
+    45px 430px white,
+    18px 920px white;
+   
+}
+
+.stars2 {
+    position: absolute;
+    content: "";
+    left: calc(100%/2 - (600px));
+    width: 1px;
+    height: 1px;
+    border-radius: 50%;
+    box-shadow: 50px 30px white,
+    250px 80px white,
+    80px 120px white,
+    600px 20px white,
+    700px 130px white,
+    450px 50px white,
+    350px 100px white,
+    900px 100px white,
+
+    100px 150px white,
+    50px 280px white,
+    300px 40px white,
+    550px 390px white,
+    320px 100px white,
+    230px 300px white,
+    820px 350px white,
+
+    180px 250px white,
+    150px 420px white,
+    660px 80px white,
+    790px 540px white,
+    450px 320px white,
+    430px 400px white,
+    850px 480px white,
+
+    
+    170px 350px white,
+    50px 480px white,
+    10px 300px white,
+    70px 540px white,
+    450px 600px white,
+    610px 720px white,
+    534px 880px white,
+
+    80px 350px white,
+    50px 480px white,
+    10px 570px white,
+    70px 540px white,
+    45px 600px white,
+    512px 720px white,
+    24px 990px white,
+
+    649px 1100px white,
+    40px 600px white,
+    10px 800px white,
+    23px 950px white,
+    45px 430px white,
+    18px 920px white,
+    65px 1000px white;
+
+    animation: anim-stars 20s linear infinite;
+}
+
+.stars2::after {
+    content: "";
+    position: absolute;
+    top: 1024px;
+    width: 1px;
+    height: 1px;
+    border-radius: 50%;
+    box-shadow: 50px 30px white,
+    250px 80px white,
+    80px 120px white,
+    600px 20px white,
+    700px 130px white,
+    450px 50px white,
+    350px 100px white,
+    900px 100px white,
+
+    100px 150px white,
+    50px 280px white,
+    300px 40px white,
+    550px 390px white,
+    320px 100px white,
+    230px 300px white,
+    820px 350px white,
+
+    180px 250px white,
+    150px 420px white,
+    660px 80px white,
+    790px 540px white,
+    450px 320px white,
+    430px 400px white,
+    850px 480px white,
+
+    
+    170px 350px white,
+    50px 480px white,
+    10px 300px white,
+    70px 540px white,
+    450px 600px white,
+    610px 720px white,
+    534px 880px white,
+
+    80px 350px white,
+    50px 480px white,
+    10px 570px white,
+    70px 540px white,
+    45px 600px white,
+    512px 720px white,
+    24px 990px white,
+
+    649px 1100px white,
+    40px 600px white,
+    10px 800px white,
+    23px 950px white,
+    45px 430px white,
+    18px 920px white;
+   
+}
+.stars3 {
+    position: absolute;
+    content: "";
+    left: calc(100%/1.3 - (600px));
+    width: 1px;
+    height: 1px;
+    border-radius: 50%;
+    box-shadow: 50px 30px white,
+    250px 80px white,
+    80px 120px white,
+    600px 20px white,
+    700px 130px white,
+    450px 50px white,
+    350px 100px white,
+    900px 100px white,
+
+    100px 150px white,
+    50px 280px white,
+    300px 40px white,
+    550px 390px white,
+    320px 100px white,
+    230px 300px white,
+    820px 350px white,
+
+    180px 250px white,
+    150px 420px white,
+    660px 80px white,
+    790px 540px white,
+    450px 320px white,
+    430px 400px white,
+    850px 480px white,
+
+    
+    170px 350px white,
+    50px 480px white,
+    10px 300px white,
+    70px 540px white,
+    450px 600px white,
+    610px 720px white,
+    534px 880px white,
+
+    80px 350px white,
+    50px 480px white,
+    10px 570px white,
+    70px 540px white,
+    45px 600px white,
+    512px 720px white,
+    24px 990px white,
+
+    649px 1100px white,
+    40px 600px white,
+    10px 800px white,
+    23px 950px white,
+    45px 430px white,
+    18px 920px white,
+    65px 1000px white;
+
+    animation: anim-stars 20s linear infinite;
+}
+
+.stars3::after {
+    content: "";
+    position: absolute;
+    top: 1024px;
+    width: 1px;
+    height: 1px;
+    border-radius: 50%;
+    box-shadow: 50px 30px white,
+    250px 80px white,
+    80px 120px white,
+    600px 20px white,
+    700px 130px white,
+    450px 50px white,
+    350px 100px white,
+    900px 100px white,
+
+    100px 150px white,
+    50px 280px white,
+    300px 40px white,
+    550px 390px white,
+    320px 100px white,
+    230px 300px white,
+    820px 350px white,
+
+    180px 250px white,
+    150px 420px white,
+    660px 80px white,
+    790px 540px white,
+    450px 320px white,
+    430px 400px white,
+    850px 480px white,
+
+    
+    170px 350px white,
+    50px 480px white,
+    10px 300px white,
+    70px 540px white,
+    450px 600px white,
+    610px 720px white,
+    534px 880px white,
+
+    80px 350px white,
+    50px 480px white,
+    10px 570px white,
+    70px 540px white,
+    45px 600px white,
+    512px 720px white,
+    24px 990px white,
+
+    649px 1100px white,
+    40px 600px white,
+    10px 800px white,
+    23px 950px white,
+    45px 430px white,
+    18px 920px white;
+   
+}
+
+.starsBig {
+    content: "";
+    position: absolute;
+    left: calc(100%/6 - (600px));
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    box-shadow: 50px 30px  8px white,
+    200px 370px  8px white,
+    270px 800px  8px white,
+    500px 700px  8px white,
+    990px 1000px  8px white;
+    animation: anim-stars 5s linear infinite;
+}
+.starsBig::after {
+    content: "";
+    position: absolute;
+    top: 1024px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    box-shadow: 10px 10px  8px white,
+    200px 370px  8px white,
+    270px 800px  8px white,
+    500px 700px  8px white,
+    990px 1000px  8px white;
+    
+}
+.starsBig2 {
+    content: "";
+    position: absolute;
+    left: calc(100%/2 - (600px));
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    box-shadow: 50px 30px  8px white,
+    200px 370px  8px white,
+    270px 800px  8px white,
+    500px 700px  8px white,
+    990px 1000px  8px white;
+    animation: anim-stars 5s linear infinite;
+}
+.starsBig2::after {
+    content: "";
+    position: absolute;
+    top: 1024px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    box-shadow: 10px 10px  8px white,
+    200px 370px  8px white,
+    270px 800px  8px white,
+    500px 700px  8px white,
+    990px 1000px  8px white;
+    
+}
+.starsBig3 {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    box-shadow: 50px 30px  8px white,
+    200px 370px  8px white,
+    270px 800px  8px white,
+    500px 700px  8px white,
+    990px 1000px  8px white;
+    animation: anim-stars 5s linear infinite;
+}
+.starsBig3::after {
+    content: "";
+    position: absolute;
+    top: 1024px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    box-shadow: 10px 10px  8px white,
+    200px 370px  8px white,
+    270px 800px  8px white,
+    500px 700px  8px white,
+    990px 1000px  8px white;
+    
+}
+
+
+
+
+.lua {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.99);
+    box-shadow: 0px 0px 50px white;
+    top: 1024px;
+    left: 400px;
+    animation: anim-stars 200s linear infinite;
+} 
+
+
+@keyframes anim-stars {
+    
+    from {
+        transform: translatey(0px);
+        
+    }
+    to {
+        transform: translatey(-1200px);
+        
+    }
+}
+
+@keyframes anim-lua {
+    from {
+        transform: translatey(0px);
+        
+    }
+    to {
+        transform: translatey(-1200px);
+    }
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+    .lua {
+        left: 360px;
+    }
+}

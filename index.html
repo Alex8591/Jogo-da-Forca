@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" >
+    <link rel="stylesheet" href="ceu.css" >
+    <link rel="stylesheet" href="teclado.css" >
+    <title>Jogo da Forca</title>
+</head>
+<body>
+    <img src="images/logo.svg" class="logo">
+    <div class="container" >
+        <div class="lua" ></div>
+        <div class="stars" ></div>
+        <div class="stars2" ></div>
+        <div class="stars3" ></div>
+        <div class="starsBig" ></div>
+        <div class="starsBig2" ></div>
+        <div class="starsBig3" ></div>
+        <div id="aparece-forca" class="canvas" display="none">
+            <canvas id="forca" height="860px" width="1200" display="none"></canvas>
+            <div class="sublinhado"></div>
+            
+        </div>
+        <div id="area">
+            <button class="onTeclado" title="Mostrar ">&#9000; &#9660;</button>
+            <button class="offTeclado " title="Ocultar ">&#9000; &#9650;</button>
+            
+        </div>
+        <form action="" method="post" id="formularios">
+          
+            <fieldset id="teclado">
+                    
+                    <fieldset>
+                            <input type="button" name="Q" value="Q" />
+                            <input type="button" name="W" value="W" />
+                            <input type="button" name="E" value="E" />
+                            <input type="button" name="R" value="R" />
+                            <input type="button" name="T" value="T" />
+                            <input type="button" name="Y" value="Y" />
+                            <input type="button" name="U" value="U" />
+                            <input type="button" name="I" value="I" />
+                            <input type="button" name="O" value="O" />
+                            <input type="button" name="P" value="P" />
+                    </fieldset>
+                    <fieldset>
+                            <input type="button" name="A" value="A" />
+                            <input type="button" name="S" value="S" />
+                            <input type="button" name="D" value="D" />
+                            <input type="button" name="F" value="F" />
+                            <input type="button" name="G" value="G" />
+                            <input type="button" name="H" value="H" />
+                            <input type="button" name="J" value="J" />
+                            <input type="button" name="K" value="K" />
+                            <input type="button" name="L" value="L" />
+                    </fieldset>
+                    <fieldset>                      
+                            <input type="button" name="Z" value="Z" />
+                            <input type="button" name="X" value="X" />
+                            <input type="button" name="C" value="C" />
+                            <input type="button" name="V" value="V" />                      
+                            <input type="button" name="B" value="B" />
+                            <input type="button" name="N" value="N" />
+                            <input type="button" name="M" value="M" />
+                    </fieldset>
+            </fieldset>
+           
+        </form>
+        <div class="buttom1">Adicionar nova palavra</div>
+        <div class="buttom2">Começar a jogar</div>
+    </div>
+    <script src="script.js"></script>
+    <script src="teclado.js"></script>
+
+</body>
+</html>
