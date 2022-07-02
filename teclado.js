@@ -77,6 +77,38 @@ window.onload = function(){
       
        
 }
+const
+  screen = {
+    small: 0,
+    medium: 400,
+    large: 800
+};
+
+// observe window resize
+
+
+
+var footer = document.querySelector('footer');
+var tela = [];
+// calculate size
+function resizeHandler() {
+   
+    // get window width
+    const iw = window.innerWidth;
+   
+
+    // determine named size
+    let size = null;
+    for (let s in screen) {
+        if (iw >= screen[s]) size =  screen[s];
+       
+    }
+    if(size == 400) {
+       tela.push(size)
+    }
+}
+resizeHandler();
+console.log(tela)
 function formulario() {
     var area = document.getElementById('area');
     var formulario = document.getElementById('formularios');
@@ -91,12 +123,17 @@ function formulario() {
     offTeclado.addEventListener("click", ocultar);
     function mostrar(){
         teclado.style.display = 'block';
-        footer.style.marginTop = '165px';
+        if(tela == 400) {
+            footer.style.marginTop = '165px'
+        }
     }
     function ocultar(){
         teclado.style.display =  'none';
-        footer.style.marginTop = 'initial';
+        if(tela == 400) {
+            footer.style.marginTop = 'initial';
+        }
     }
+    
 }
 function formularioOcultar(){
     var formulario = document.getElementById('formularios');

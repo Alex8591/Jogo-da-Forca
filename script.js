@@ -31,7 +31,7 @@ function atencao() {container.appendChild(important)};
 function inputText() {container.appendChild(input)};
 
 // Seletores
-var palavras = ['ALURA', 'BRASIL',];
+var palavras = ['ALURA', 'BRASIL', 'BIGDATA', 'COMPUTER', 'BACKUP', 'BROWSER', 'COOKIES', 'HARDWARE', 'HOTSITE', 'INBOX'];
 var tabuleiro = document.getElementById('forca').getContext('2d');
 var letras = [];
 var palavraCorreta = "";
@@ -183,7 +183,7 @@ function msnPerdeu() {
     
    
      
-    tabuleiro.fillText('Voçê perdeu.',700,200);
+    tabuleiro.fillText('Você perdeu.',700,200);
     tabuleiro.fillText('Fim de Jogo!',730,250);
         
     
