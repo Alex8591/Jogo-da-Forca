@@ -168,7 +168,7 @@ function msnAcertou() {
     
    
      
-    tabuleiro.fillText('Voçê Venceu. ',700,200);
+    tabuleiro.fillText('Você Venceu. ',700,200);
     tabuleiro.fillText('Parabéns!',730,250);
 
 }
