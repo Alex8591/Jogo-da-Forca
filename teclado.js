@@ -83,6 +83,7 @@ function formulario() {
     var teclado =  document.getElementById('teclado');
     var onTeclado = document.querySelector('.onTeclado');
     var offTeclado = document.querySelector('.offTeclado');
+    var footer = document.querySelector('footer');
     area.style.display = 'block';
     formulario.style.display = 'block';
     teclado.style.display =  'none';
@@ -90,9 +91,11 @@ function formulario() {
     offTeclado.addEventListener("click", ocultar);
     function mostrar(){
         teclado.style.display = 'block';
+        footer.style.marginTop = '165px';
     }
     function ocultar(){
         teclado.style.display =  'none';
+        footer.style.marginTop = 'initial';
     }
 }
 function formularioOcultar(){
