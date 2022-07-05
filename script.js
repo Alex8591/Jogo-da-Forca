@@ -387,8 +387,7 @@ function iniciar() {
         botao3.classList.remove('buttomNew1');
         botao4.classList.remove('buttomNew2');
         document.onkeydown = '';
-        var aviso = document.querySelector('.aviso');
-        var input = document.querySelector('.adicionar_palavra');
+       
        
         action.style.display = 'none';
        

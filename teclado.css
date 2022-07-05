@@ -38,22 +38,6 @@
     top: 5px;
     box-shadow: none;
 }
-input { 
-    background: #fff; 
-    border: 1px solid #ccc;
-    padding: 20px;
-    box-shadow: 0  3px 0 rgba(133, 117, 144, 0.7);
-
-}
-input:hover {
-    background: #ccc;
-    box-shadow: 0  5px 0 rgba(99, 47, 134, 0.7);
-}
-input:active {
-    position: relative;
-    top: 5px;
-    box-shadow: none;
-}
 #teclado { 
     width: 800px; 
 }
@@ -63,7 +47,22 @@ input:active {
     float: left; 
     margin: 2px; 
 }
-
 fieldset { 
     margin: 5px; 
+}
+#teclado input { 
+    background: #fff; 
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: 0  3px 0 rgba(133, 117, 144, 0.7);
+
+}
+#teclado input:hover {
+    background: #ccc;
+    box-shadow: 0  5px 0 rgba(99, 47, 134, 0.7);
+}
+#teclado input:active {
+    position: relative;
+    top: 5px;
+    box-shadow: none;
 }

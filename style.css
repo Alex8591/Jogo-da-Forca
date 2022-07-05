@@ -154,11 +154,10 @@ body {
     height: 48px;
     left: 376px;
     top: 256px;
-
+    font-size: 32px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    font-size: 31px;
     line-height: 150%;
     color: #0a3871;
     border: none;
@@ -166,7 +165,7 @@ body {
     background: transparent;
     
 }
-input::placeholder {
+.adicionar_palavra::placeholder {
     color: #0a3871;
 }
 .text {
@@ -283,10 +282,10 @@ footer {
     }
     .aviso {
         left: calc(100%/2 - (172px));
-        top: 592px;
+        top: 500px;
     }
     .adicionar_palavra {
-        left: 0;
+        left: calc(100%/2 - (200px));
     }
 
     
@@ -312,4 +311,8 @@ footer {
     #forca {
         max-width: 768px;
     }
+    .adicionar_palavra {
+        left: calc(100%/2 - (200px));
+    }
+       
 }
