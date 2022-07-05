@@ -22,7 +22,7 @@ body {
     align-items: center;
     font-family: 'Inter', sans-serif;
     position: relative;
-    min-width: 1200px;
+    min-width: 700px;
     min-height: 1024px;
     padding: 119px;
     background:  linear-gradient(rgba(18, 12, 86, 0.9), rgba(0, 0, 0, 0.9));
@@ -186,7 +186,6 @@ input::placeholder {
 footer {
     background-color: #000;
     padding: 20px;
-    max-width: 1140px;
     margin: auto;
     color: #fff;
     display: flex;
@@ -247,12 +246,12 @@ footer {
 
 
 
-@media (min-width: 320px) and (max-width: 425px) {
+@media (min-width: 320px) and (max-width: 500px) {
     .container {
         min-width: 680px;
         min-height: 796px;
     }
-    canvas {
+    #forca {
         width: 591px;
         height: 500px;
         top: 95px;
@@ -308,4 +307,9 @@ footer {
     }
     
     
+}
+@media(min-width: 501px) and (max-width: 1200px) {
+    #forca {
+        max-width: 768px;
+    }
 }
