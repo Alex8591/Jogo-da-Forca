@@ -436,17 +436,31 @@ function adicionarPalavra() {
                 
             }
         });
-        window.addEventListener("onclick", function(e) {
-            input.maxLength = "8";
-            checarInput(e)
-            if(!checarInput(e)) {
-                e.preventDefault();
-                
-                
-            }
-        });
+       
         
     });
+    window.onload = function(){
+        try{
+            if(window.event) {
+                var charCode = window.event.keyCode;
+            } else if(e) {
+                var charCode = e.which;
+            } else {
+                return true;
+            }
+            if (
+                (charCode > 64 && charCode < 91) ||
+                (charCode > 96 && charCode < 123) ||
+                (charCode > 191 && charCode <= 255)
+            ){
+                return true;
+            } else {
+                return false;
+            }
+        } catch (err) {
+            alert(err.Description);
+        }
+    }
    
     
     botao4.addEventListener("click",salvar);
