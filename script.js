@@ -439,10 +439,11 @@ function adicionarPalavra() {
        
         
     });
-    window.onload = function(){
+    window.onload = function(e){
         try{
             if(window.event) {
                 var charCode = window.event.keyCode;
+               
             } else if(e) {
                 var charCode = e.which;
             } else {
