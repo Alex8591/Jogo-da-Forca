@@ -24,6 +24,7 @@ var action = document.createElement('div');
 important.classList.add('aviso');
 action.classList.add('action');
 input.classList.add('adicionar_palavra');
+input.setAttribute("type", "text");
 
 function botaoStart(){botao1.style.display='flex'};
 function botaoAdd(){botao2.style.display='flex'};
