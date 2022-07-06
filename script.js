@@ -419,25 +419,26 @@ function adicionarPalavra() {
     input.style.display = 'block';
    
     input.placeholder = 'Digite uma palavra ou frase';
-    input.maxLength = '8';
+   
     botao3.classList.add('buttomNew1');
     botao4.classList.add('buttomNew2');
     
     input.addEventListener("input", function(e) {
         const inputUpper = e.target;
         inputUpper.value = inputUpper.value.toUpperCase();
-      
+        input.maxLength = "8";
+        input.addEventListener("keypress", function(e) {
+            checarInput(e)
+            if(!checarInput(e)) {
+                e.preventDefault();
+                
+                
+            }
+        });
        
 
     });
-    input.addEventListener("keypress", function(e) {
-        checarInput(e)
-        if(!checarInput(e)) {
-            e.preventDefault();
-            
-            
-        }
-    });
+   
     
     botao4.addEventListener("click",salvar);
 
