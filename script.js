@@ -340,7 +340,7 @@ function atualizar() {
 
 botao2.addEventListener("click", iniciar)
 
-function sratup() {
+function startup() {
     var el = document.getElementById('forca');
     el.addEventListener("click",input);
    
@@ -363,7 +363,7 @@ function iniciar() {
     console.log(palavraCerta)
     
     document.onkeydown = escreverLetras
-    sratup()
+    startup()
     tracos(escolherPalavra())
     desenharForca() 
 
@@ -436,8 +436,16 @@ function adicionarPalavra() {
                 
             }
         });
-       
-
+        window.addEventListener("onclick", function(e) {
+            input.maxLength = "8";
+            checarInput(e)
+            if(!checarInput(e)) {
+                e.preventDefault();
+                
+                
+            }
+        });
+        
     });
    
     
